@@ -1,0 +1,14 @@
+english=int(input(" marks of english:"))
+physics=int(input(" marks of physics:"))
+chemistry=int(input(" marks of chemistry:"))
+maths=int(input(" marks of maths:"))
+biology=int(input(" marks of biology:"))
+
+total=english+physics+chemistry+maths+biology
+print("the total mark is:",total)
+average=total/5
+print("the average mark is:",average)
+if(average<=35):
+             print("additional class is required to you")
+else:
+    print("you are good to go")
